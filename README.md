@@ -60,19 +60,23 @@ From a collection of element files and objects (files and folders)
 
 	+ [myproject]
 
-		+ [display-box]		...   <display-box></display-box>
+
+		+ [display-box]         ( <display-box></display-box> )
 			| body.html
 			| created.js
 			| left.html
 			| right.html
 
-		+ [hello-widget]	...   <hello-widget></hello-widget>
+
+		+ [hello-widget]        ( <hello-widget></hello-widget> )
 			| body.html
 			| created.js
 
-		+ [x-main]			...   <x-main></x-main>
+
+		+ [x-main]              ( <x-main></x-main> )
 			| body.html
 			| created.js
+
 
 		- index.html
 	
