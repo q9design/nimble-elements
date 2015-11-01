@@ -1,0 +1,17 @@
+upg: bar showing how long till tail ready (little bar above head?)
+
+upg: make design more nimbly.
+	- x-main as coordinator.
+	- highscore automatically knows highscore
+	- score object automatically knows score.
+	- game over object -- so can get fancy.
+
+	- playfield game graph paints itsef from api globals
+		<play-field></play-field>  // scaleable?
+
+	- input  // upg: allow game ctrl
+
+	- game state engine. api.
+
+	make api?
+		api.currentScore(score)	-- adds to highscore / sets current score

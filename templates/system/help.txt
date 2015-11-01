@@ -1,0 +1,34 @@
+Nimble Elements -- Web Application Framework.
+
+Nimble compiles a set of files and directories into a custom element based application of two single files: index.html and bundle.js.
+
+The system provides a framework for developers to quickly and simply create and extend a web application with the frameworks, libraries and elements of their choice.
+
+
+Nimble's goal is to make starting and developing an app simple, quick and painless while allowing latitude in choice of library and framework.
+
+
+=======================================
+
+
+	install:  sudo npm i -g nimble-elements
+
+	  build:  edit source. run nimble (from your development folder.) repeat.
+
+	 deploy:  copy _build/index.html & bundle.js
+
+
+=======================================
+
+
+nimble [commands]
+
+--help, -h   ... display what you are reading now
+
+--bootstrap   ... install simple example files to the output path
+
+--bootstrap <project name>   ... install bundled project example files to the output path 
+
+--bootstrap-list   ... list bundled project names
+
+--version, -v   ... nimble version

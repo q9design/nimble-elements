@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+var n = require('../lib/nimble.js');
+
+n.build()

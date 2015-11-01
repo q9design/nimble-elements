@@ -1,0 +1,47 @@
+# install from npm
+
+	sudo npm i -g nimble-elements
+
+
+# nimble developer install from local copy
+
+	sudo npm i -g .  // from this folder
+
+
+==============
+
+next:
+	create nimbile-elements github
+	set package.json to use this as the git. repo.
+
+	use api grunt?
+
+	make compile options
+		- source maps
+		- minimize	
+		- (two file / or one file target) .. or perhaps minimize good?
+> nimble
+	- bootstraps
+		- manual .. creates a index.html manual of nimble.
+		- cors/jsonp (where's a public service cors/jsonp)
+		- basic-framework
+			- add
+				- header menu (3 pages) .. perhaps practical docs?
+				- footer
+				- live-data/forms/display examples
+				- cors call
+				
+	---
+	- move to it's own repo
+	- update npm publish
+
+> make so ok to have versions dynamic ? (not stuck on specific versions of libs)
+
+upg: add bootstrap repos. .. so can be user supported.
+
+	(upg: change --bootstrap to --init and/or alias them)
+
+-----------------
+webIDE
+service worker
+

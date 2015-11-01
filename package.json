@@ -1,0 +1,46 @@
+{
+  "name": "nimble-elements",
+  "version": "0.1.51",
+  "description": "Lightweight Web Application Framework - 2015.10.29",
+  "bin": {
+    "nimble": "./bin/nimble"
+  },
+  "keywords": [
+    "browser",
+    "framework",
+    "web app",
+    "webapp",
+    "custom elements",
+    "shadow dom",
+    "lightweight",
+    "light weight",
+    "compile",
+    "compiler",
+    "babel",
+    "browserify",
+    "es6"
+  ],
+  "main": "./lib/nimble.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/q9design/nimble.git"
+  },
+  "author": "Q9 Design",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "bluebird": "^2.10.2",
+    "browserify": "^11.2.0",
+    "chalk": "^1.1.1",
+    "copyfiles": "^0.2.1",
+    "del": "^2.0.2",
+    "fs-extra": "^0.24.0",
+    "glob": "^5.0.15",
+    "marked": "^0.3.5",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}

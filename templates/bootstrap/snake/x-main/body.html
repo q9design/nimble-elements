@@ -1,0 +1,19 @@
+<style>
+	:host {display: block;}
+
+	canvas {display: block; margin: auto; xwidth: 800px;}
+	.scores {position: absolute; top: 0px;  left: 0px; right: 0px; color: yellow; font-size: 125%; text-align: center;}
+	.scores .item {padding: 15px;}
+	.center-x {height: 0px; width: 50%; position: absolute; top:0px;}
+	.game-over {display: none; position: absolute; left: 0px; right: 0px; top: 3em; color: yellow; text-align: center;}
+
+</style>
+
+<canvas width=800 height=400></canvas>
+
+
+<div class='debug'>...</div>
+<div class='center-x'></div>
+<div class='scores'>Score: <x-score class='score item'></x-score> High Score: <high-score class='high-score item'></highscore></div>
+
+<div class='game-over'>Game Over</div>

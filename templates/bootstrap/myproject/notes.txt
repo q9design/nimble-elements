@@ -1,0 +1,5 @@
+change display box to x-clock ?
+
+next: improve html/css design.
+
+upg: add a diagram (png or pdf)

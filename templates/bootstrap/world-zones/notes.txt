@@ -1,0 +1,5 @@
+upg: add differnt types of clockfaces.  (each as it's own nimble object given a time offset?)
+
+upg: add world map pic with where the day of the week is ____WEDNESDAY__________ ____ THURSDAY ___  .. or perhaps leave as is.. and make a new project to keep this simple.
+
+upg: perhaps make second widget for day of week.  and place that in it's own td .. <day-of-week offset-hours=1></>

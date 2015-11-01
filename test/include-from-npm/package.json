@@ -1,0 +1,14 @@
+{
+  "name": "include-from-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam <adam.mitchell@q9design.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
