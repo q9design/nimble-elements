@@ -1,10 +1,10 @@
 
 ### An easy to use web application compiler.
  
-* easy <custom-tags></custom-tags>
-* standard npm packages
-* newer javascript features (ES6)
-* a single index.html distributable
+	* easy <custom-tags></custom-tags>
+	* standard npm packages
+	* newer javascript features (ES6)
+	* a single index.html distributable
 
 
 ![](https://raw.githubusercontent.com/q9design/nimble/master/node/elements/media/demo.gif)
