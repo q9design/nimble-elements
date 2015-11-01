@@ -1,9 +1,12 @@
 
-### An easy to use web application compiler.
+### An easy to use web application compiler
  
 	* easy <custom-tags></custom-tags>
+
 	* standard npm packages
+
 	* newer javascript features (ES6)
+
 	* a single index.html distributable
 
 
