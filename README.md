@@ -70,7 +70,7 @@ From a collection of element files and objects (files and folders)
 			| body.html
 			| created.js
 
-		+ [x-main]		...   <x-main></x-main>
+		+ [x-main]			...   <x-main></x-main>
 			| body.html
 			| created.js
 
