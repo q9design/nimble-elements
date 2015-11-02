@@ -93,8 +93,9 @@ Each sub-directory automatically generates a shadom dom based custom html elemen
 		- created.js -- called each time an instance of it's element is created. 
 		- *.html file content is provided to created.js as a this[*] / this.* property.  (e.g. body.html > this['body'])
 
+## sample code
 
-**created.js sample code**
+**created.js**
 
 ```javascript
 // created.js code is called each time an instance of it's element is created. 
@@ -124,7 +125,7 @@ $('h1',dom).textContent(x)
 ```
 
 
-**body.html sample code**
+**body.html**
 
 ```html
 <style>
