@@ -1,8 +1,8 @@
 Nimble Elements -- Web Application Framework.
 
-Nimble compiles a set of files and directories into a custom element based application of two single files: index.html and bundle.js.
+Nimble compiles a set of files and directories into a custom element based application of a single file: index.html.
 
-The system provides a framework for developers to quickly and simply create and extend a web application with the frameworks, libraries and elements of their choice.
+It is a framework to quickly and simply create and extend web applications with the frameworks, libraries and elements of your choice.
 
 
 Nimble's goal is to make starting and developing an app simple, quick and painless while allowing latitude in choice of library and framework.
@@ -15,7 +15,7 @@ Nimble's goal is to make starting and developing an app simple, quick and painle
 
 	  build:  edit source. run nimble (from your development folder.) repeat.
 
-	 deploy:  copy _build/index.html & bundle.js
+	 deploy:  copy _build/index.html
 
 
 =======================================
@@ -23,12 +23,12 @@ Nimble's goal is to make starting and developing an app simple, quick and painle
 
 nimble [commands]
 
---help, -h   ... display what you are reading now
+	--help, -h   ... display what you are reading now
 
---bootstrap   ... install simple example files to the output path
+	--bootstrap   ... install basic sample files to the output path
 
---bootstrap <project name>   ... install bundled project example files to the output path 
+	--bootstrap <project name>   ... install project example files to the output path 
 
---bootstrap-list   ... list bundled project names
+	--bootstrap-list   ... list project names
 
---version, -v   ... nimble version
+	--version, -v   ... nimble version
