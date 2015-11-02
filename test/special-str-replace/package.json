@@ -1,0 +1,14 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "Nimble Elements minimals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nimble Elements",
+  "license": "ISC",
+  "dependencies": {
+    "observed": "^1.1.1"
+  }
+}

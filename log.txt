@@ -1,0 +1,2 @@
+2015.11.02
+	- fix $' special str.replace issue. (some compiled code could break)

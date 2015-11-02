@@ -1,0 +1,1 @@
+$' $` and such mean special things in c in str.replace(find,c)
