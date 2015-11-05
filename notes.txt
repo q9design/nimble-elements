@@ -43,6 +43,13 @@ upg: add bootstrap repos. .. so can be user supported.
 
 	(upg: change --bootstrap to --init and/or alias them)
 
+upg: properties.hjson -- see test/test
+	- extends: 'input'  .. why created callback not seem work?
+
+upg: register.js // specials (element, tagname)
+	element = Object.create(HTMLElement.prototype)
+	document.registerElement(tagname,{prototype:element})
+
 -----------------
 webIDE
 service worker

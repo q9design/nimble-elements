@@ -3,10 +3,13 @@
 // 
 
 // upg: auto models
-var p = Object.create(HTMLElement.prototype)
+var p = Object.create(HTML{{extend-name}}Element.prototype)
 
 
 p.createdCallback = function(){
+
+	// console.log('created.'); console.log(this)
+
 	var dom = this.createShadowRoot() // upg: this._dom = dom  (or allow dom direct access?)
 
 	var name = `{{tagname}}` // or map values in files?
@@ -47,5 +50,5 @@ p.detachedCallback = function(){
 	}
 
 
-document.registerElement('{{tagname}}',{prototype: p})
+document.registerElement('{{tagname}}',{{register-options}})
 
