@@ -1,1 +1,1 @@
-../../lib/bin/nimble "$@"
+../../bin/nimble "$@"

@@ -12,10 +12,36 @@
 
 next:
 
+	- partioning
+		- nimble-core
+			- can be used with or without filesystem
+			- generates a single index.html
+		- nimble-cli
+			- manages filesystem stuff and other build tools
+
+	> next: learn grunt/etc for programic compelation control.
+		also.. https://github.com/substack/node-browserify#api-example
+
+
+	> next: start over using programantic compelation tool. 
+
+
+
+
+
+
+	- upgdate docs for new features
+		--live
+		- require('nimble')
+
+	- update .. clean options
+
 	- add more samples
 	- copy descriptions when --bootstrap-list
 	- menu and pages for basic-framework
 
+
+	> upg: apply content even if no index.html / head tags.
 
 	use api grunt?
 
@@ -50,7 +76,14 @@ upg: register.js // specials (element, tagname)
 	element = Object.create(HTMLElement.prototype)
 	document.registerElement(tagname,{prototype:element})
 
+upg: option to select source / dest paths.
+
+upg: var nimble = require('nimble') .. template/nimble.js (automatically copied into build)
+	nimble.params = (minimist object) .. so can get compile time paarams.
+
 -----------------
 webIDE
 service worker
+
+see: jackll? .. perhaps set our command line params more on par to match (to keep things simple on ppls memory)
 

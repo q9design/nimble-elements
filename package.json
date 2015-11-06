@@ -40,8 +40,10 @@
     "fs-extra": "^0.24.0",
     "glob": "^5.0.15",
     "hjson": "^1.7.4",
+    "live-server": "^0.8.2",
     "marked": "^0.3.5",
     "minimist": "^1.2.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "watchr": "^2.4.13"
   }
 }
