@@ -3,9 +3,9 @@
 // var h = this.body
 // dom.innerHTML = 'hi'
 
-// this.attributeChangedCallback = function(){}
-// this.attachedCallback = function(){}
-// this.detachedCallback = function(){}
+// this.attributeChanged = function(){}
+// this.attached = function(){}
+// this.detached = function(){}
 
 // this.onclick = e=>{console.log('hello!')}
 

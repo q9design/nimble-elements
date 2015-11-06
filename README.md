@@ -117,6 +117,8 @@ dom.innerHTML = l+b+r  // provide content
 this.attached = function(){ console.log('hi!') }
 this.detached = function(){ console.log('bye!') }
 
+this.attributeChanged = function(name,oldVal,newVal){}
+
 this.onclick = e=>{ console.log('poke.') }
 
 var x = this.getAttribute('x')
