@@ -1,3 +1,25 @@
+
+
+
+*******************************************
+
+              moved to nimble 2
+
+*******************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # install from npm
 
 	sudo npm i -g nimble-elements
@@ -27,7 +49,9 @@ next:
 
 
 
+	- option for two files (in part for search engine opts)
 
+	- upg: shortcut for data urls in images? or hmm.. framwork better (don't want to dupliate binary data)
 
 
 	- upgdate docs for new features
@@ -69,8 +93,16 @@ upg: add bootstrap repos. .. so can be user supported.
 
 	(upg: change --bootstrap to --init and/or alias them)
 
+upg: could 'packetize' inline data then rebuild in memory (perhaps to blobs and inmemory dataurls?)
+
+upg: nest sub elements within parents?
+
 upg: properties.hjson -- see test/test
 	- extends: 'input'  .. why created callback not seem work?
+
+upg: use imports too?
+
+upg: var nimble = require('nimble') ... nimble.require('nimble-package-name')
 
 upg: register.js // specials (element, tagname)
 	element = Object.create(HTMLElement.prototype)
